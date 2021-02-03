@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Dummy Rest API Example Test Suite">
+
+   
+  <test name="CRUD API Tests on dummy.restapiexample.com">    
+    
+    <classes>
+       <class name="restassured.EmployeeAPITest"/>
+    </classes>
+     
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
